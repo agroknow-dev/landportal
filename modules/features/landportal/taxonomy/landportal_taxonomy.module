@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * Code for the Landportal Taxonomy feature.
+ */
+
+include_once 'landportal_taxonomy.features.inc';
+/**
+ * @file
+ * Code for the Landportal taxonomy
+ */
+
+// do stuff here to inject taxonomy on load?
+
+/*
+Debate statuses
+ - open
+ - comming soon
+ - closed
+
+*/

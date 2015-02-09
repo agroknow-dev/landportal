@@ -1,0 +1,112 @@
+<?php
+
+/**
+ * Implements hook_facetapi_widgets().
+ */
+function facetapi_collapsible_facetapi_widgets() {
+  return array(
+    'collapsible' => array(
+      'handler' => array(
+        'label' => t('Collapsible Links'),
+        'class' => 'FacetapiCollapsible',
+        'query types' => array('term', 'date'),
+      ),
+    ),
+  );
+}
+
+/**
+ * Implements hook_theme_registry_alter().
+ */
+function facetapi_collapsible_theme_registry_alter(&$theme_registry) {
+  $path = drupal_get_path('module', 'facetapi');
+  foreach (array('facetapi_title', 'facetapi_link_inactive', 'facetapi_link_active', 'facetapi_count') as $theme_func) {
+    // Only change the theme function if the original facetapi implementation is
+    // active. Otherwise theme overrides do not work.
+    if (!empty($theme_registry[$theme_func]) && $theme_registry[$theme_func]['theme path'] == $path) {
+      $theme_registry[$theme_func]['function'] = 'facetapi_collapsible_'. $theme_func;
+    }
+  }
+}
+
+/**
+ * Themes a facet title.
+ */
+function facetapi_collapsible_facetapi_title($variables) {
+  return drupal_strtolower(check_plain($variables['title']));
+}
+
+/**
+ * Themes a facet link with an optional count.
+ */
+function facetapi_collapsible_facetapi_link_inactive($variables) {
+  $variables['text'] = trim($variables['text'], '"');
+  if (!empty($variables['count'])) {
+    $variables['options']['html'] = TRUE;
+    $variables['text'] .= ' ' . theme('facetapi_count', $variables);
+  }
+  return '<div class="facetapi-facet facetapi-inactive">'. theme_link($variables) .'</div>';
+}
+
+/**
+ * Themes the count for the facet item.  For example, this number shows how many
+ * results will be returned after clicking on a link.
+ */
+function facetapi_collapsible_facetapi_count($variables) {
+  return '<span class="count">' . check_plain($variables['count']) . '</span>';
+}
+
+/**
+ * Themes a facet link for a value that is currently being searched.
+ */
+function facetapi_collapsible_facetapi_link_active($variables) {
+  $facet_text = '';
+  if (isset($variables['text'])) {
+    if (empty($variables['options']['html'])) {
+     $facet_text = check_plain(trim($variables['text'], '"'));
+    }
+    else {
+      $facet_text  = $variables['text'];
+    }
+  }
+  $variables['text'] = $facet_text . '<span class="remove">(-)</span>';
+  $variables['options']['html'] = TRUE;
+
+  return '<div class="facetapi-facet facetapi-active">' . theme_link($variables) . '</div>';
+}
+
+/**
+ * Implements hook_block_view_alter().
+ */
+function facetapi_collapsible_block_view_alter($data, $block) {
+  if (isset($data['content']['#facet'])) {
+    $settings = $data['content']['#settings'];
+    if (is_object($settings) && isset($settings->settings) && $settings->settings['widget'] == 'collapsible') {
+      facetapi_collapsible_static($block->delta);
+    }
+  }
+}
+
+/**
+ * Function that manages a static array of the block deltas that contain
+ * collapsible facets.
+ */
+function facetapi_collapsible_static($delta = NULL) {
+  $facetapi_collapsible = &drupal_static(__FUNCTION__, array());
+  if ($delta) {
+    // Add the given delta to our array of collapsible facets.
+    $facetapi_collapsible[] = $delta;
+  }
+  return $facetapi_collapsible;
+}
+
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function facetapi_collapsible_preprocess_block(&$variables) {
+  $collapsible_facets = facetapi_collapsible_static();
+  if (in_array($variables['block']->delta, $collapsible_facets)) {
+    $variables['classes_array'][] = 'facetapi-collapsible';
+  }
+}

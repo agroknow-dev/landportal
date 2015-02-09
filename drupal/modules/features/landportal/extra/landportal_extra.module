@@ -1,0 +1,36 @@
+<?php
+/**
+ * @file
+ * Landportal extra module
+ *
+ * Original work by: WESO (http://weso.es/)
+ * Drupal refactoring: Jules <jules@ker.bz>
+ */
+
+module_load_include('inc', 'landportal_extra', 'landportal_extra.blocks');
+
+/**
+ * Default block configuration for the Landportal
+ *  - main-menu goes in header
+ *  - hide 'power-by' (default drupal footer)
+ *  - Search form goes in section_header
+ *  - user login form: hide
+ */
+function landportal_extra_block_info_alter(&$blocks, $theme, $code_blocks) {
+  if ($theme == 'landportal') {
+    foreach (array('main-menu', 'user-menu') as $m) {
+      $blocks['system'][$m]['status'] = TRUE;
+      $blocks['system'][$m]['region'] = 'header';
+    }
+    // Disable Drupal default block
+    foreach (array('powered-by', 'navigation') as $m) {
+      $blocks['system'][$m]['status'] = FALSE;
+      $blocks['system'][$m]['region'] = '';
+    }
+    $blocks['search']['form']['status'] = TRUE;
+    $blocks['search']['form']['region'] = 'section_header';
+    $blocks['user']['login']['status'] = FALSE;
+    $blocks['user']['login']['region'] = '';
+  }
+  return $blocks;
+}

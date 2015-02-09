@@ -1,0 +1,45 @@
+<?php
+/**
+ * @file
+ * This module provide an interface to the landdebate section of the Landportal.
+ *
+ * The Landportal landdebate
+ *
+ * Original work by: WESO
+ * Drupal refactoring: Jules <jules@ker.bz>
+ */
+
+/**
+ * Creates a new menu 'landdebate-menu'
+ * see also: landdebate.menu.inc
+ */
+function landdebate_enable() {
+  watchdog('Landdebate', 'Adding ' . $GLOBALS['landdebate_menu']);
+  $menu = array(
+    'menu_name'		=> $GLOBALS['landdebate_menu'],
+    'title'		=> "Debate with others",
+    'description'       => "Land debate serves to stimulate debate with others in the land community through sharing news and events, blog posts and online discussions.",
+                             );
+  if (!menu_load($GLOBALS['landdebate_menu'])) {
+    drupal_set_message('Landdebate', 'Adding ' . $GLOBALS['landdebate_menu']);
+    menu_save($menu);
+    cache_clear_all('*', 'cache_menu', TRUE);
+  }
+  cache_clear_all();
+
+  // TODO: check about that...
+  $translatables['debate'] = array(
+    t($menu['title']),
+    t($menu['description']),
+  );
+}
+
+function landdebate_disable() {
+  watchdog('Landdebate', 'Removing ' . $GLOBALS['landdebate_menu']);
+  menu_delete(array('menu_name' => $GLOBALS['landdebate_menu']));
+  cache_clear_all();
+
+  $status = variable_get('views_defaults', array());
+  $status['debate'] = TRUE;
+  variable_set('views_defaults', $status);
+}

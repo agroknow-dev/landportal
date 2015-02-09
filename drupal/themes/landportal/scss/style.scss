@@ -1,0 +1,57 @@
+/*****************************************
+
+Landportal Stylesheet
+
+For: Landportal Drupal theme
+Author: Jules Clement <jules@ker.bz>
+Original design by: WESO (http://weso.es/)
+
+*****************************************/
+
+// In order to build the CSS, you must use a 'SASS compiler' such as Compass
+// (Debian package: ruby-compass). You can tweak SCSS configuration
+// To rebuild automatically (on changes) the CSS, use something like:
+//  ~/[...]/themes/landportal/scss$ compass watch
+
+
+
+/******************** IMPORT: Partials
+Variables & function for SASS files
+*/
+
+// Variables
+@import "partials/variables";
+
+// SASS Functions
+//@import "partials/functions";
+
+// Normalize
+@import "partials/normalize";
+
+
+/******************** IMPORT: Modules
+Common Elements to the website such as:
+buttons, forms, menus...
+*/
+
+// Landdebate
+@import "modules/debate";
+
+// Buttons
+@import "modules/buttons";
+
+// Flags
+@import "modules/flags";
+
+// Forms
+@import "modules/forms";
+
+// Menus
+@import "modules/menus";
+
+/******************** IMPORT: Screens
+Base and specialized sizes for devices
+*/
+
+// Base
+@import "screens/base";

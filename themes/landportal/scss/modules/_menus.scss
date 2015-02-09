@@ -1,0 +1,128 @@
+/* Landportal SCSS: menus */
+
+#header {
+
+    ul.menu {
+        margin: 0;
+        padding: 0;
+        li {
+            padding: 0;
+            float: left;
+            list-style-type: none;
+            list-style-image: none;
+            a {
+                text-decoration: none;
+                text-transform: lowercase;
+            }
+            &:before {
+                content: "| ";
+            }
+            &:first-of-type:before {
+                content: "";
+            }
+        }
+    }
+}
+
+#section-header {
+    margin: 0;
+    padding: 0;
+    /* min-height: 120px; */
+
+    h2 {
+        font-family: 'Source Sans Pro',sans-serif;
+        clear: left;
+        font-size: 2.8em;
+        font-weight: 300;
+        margin: 0.1em 50px;
+        padding: 10px 0 0;
+        color: $white;
+        letter-spacing: .1em;
+        text-shadow: $grey 0 0.04em 0;
+    }
+    p {
+        font-size: 1.3em;
+        letter-spacing: .1em;
+        margin: 1em 50px;
+        color: $white;
+        font-weight: 300;
+    font-family: 'Source Sans Pro',sans-serif;
+
+    }
+    ul.menu {
+        clear: both;
+        margin: 0;
+        padding: 0;
+        li {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            list-style-image: none;
+            float: left;
+            border-right: 1px solid $white;
+            &:last-of-type {
+                border-right: 0;
+            }
+            a {
+                text-decoration: none;
+                display: inline-block;
+                padding: 1.3em 0;
+                color: $white;
+                text-transform: uppercase;
+                font-weight: 100;
+                letter-spacing: .1em;
+                font-size: 1.1em;
+                width: 100%;
+                line-height: 1.2em;
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+                &.active {
+                    border-bottom: 0.5em solid $yellow-light;
+                    padding-bottom: 0.8em;
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
+
+    .content:after {
+        display: block;
+        content: " ";
+        clear: both;
+        visibility: none;
+    }
+}
+.page-book #section-header {
+    border-top: 0;
+    background-color: $green-dark;
+    background-image: url(../images/header/grass-medium.png);
+}
+
+.node-type-news,
+.node-type-debate,
+.node-type-blog-post,
+.node-type-event,
+.page-debate {
+    #section-header {
+        border-top: 0;
+        background-color: $blue;
+        background-image: url(../images/header/pebbles-medium.png);
+    }
+}
+
+#section-header {
+
+    #block-menu-landbook-menu {
+        li {
+            width: 12.4%;
+        }
+    }
+
+    #block-menu-landdebate-menu {
+        li {
+            width: 16.5%;
+        }
+    }
+
+}

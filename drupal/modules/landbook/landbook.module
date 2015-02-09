@@ -1,0 +1,237 @@
+<?php
+/**
+ * @file
+ * This module provide an interface to the landbook section of the Landportal.
+ *
+ * The Landportal landbook
+ *
+ * Original work by: WESO (http://www.weso.es/)
+ * Drupal refactoring: Jules <jules@ker.bz>
+ */
+
+require_once(drupal_get_path('module', 'landbook').'/utils/database_helper.php');
+require_once(drupal_get_path('module', 'landbook').'/utils/cache_helper.php');
+
+$GLOBALS['landbook_menu'] = 'landbook-menu';
+$GLOBALS['landbook_sections'] = array('regions', 'countries', 'catalog', 'indicators', 'sources', 'reuse', 'widgets');
+
+ctools_include('landbook.menu',         'landbook');
+ctools_include('landbook.block',        'landbook');
+
+function landbook_help($path, $arg) {
+  switch ($path) {
+  case "admin/help#landbook":
+    return '<p>' . t("Landbook section of the Landportal") . '</p>'
+      . '<p>' . t("It provides differents menus, block, pages and hooks plus a few configuration pages"). '</p>'
+      . '<p>' . t("The Landbook is composed of different modules: catalog, countries, indicators, regions, reuse, sources, widgets") . '</p>'
+      . '<p>' . t("Each submodule comes with some JS to allow dynamic actions and template(s) for main content and eventually sidebars elements.") . '</p>'
+      . '<p>' . t("This module also provides ajax ready pages (which output some JSON, see: ajax/) for JS callbacks.") . '</p>'
+      ;
+    break;
+  }
+}
+
+function landbook_theme($existing, $type, $theme, $path) {
+  $struct = array(
+    'variables'         => array('data' => NULL, 'title' => 'landbook page'),
+    'path'              => drupal_get_path('module', 'landbook') . '/theme',
+  );
+  return array(
+    'regions-selectors'         => $struct + array('template' => 'regions--selectors'),
+    'country-sidebar-first'     => $struct + array('template' => 'block--country-sidebar-first'),
+    'country-sidebar-second'    => $struct + array('template' => 'block--country-sidebar-second'),
+    'indicator-sidebar-second'  => $struct + array('template' => 'block--indicator-sidebar-second'),
+
+    'regions'           => $struct + array('template' => 'regions'),
+    'catalog'           => $struct + array('template' => 'catalog'),
+    'countries'         => $struct + array('template' => 'countries'),
+    'country'           => $struct + array('template' => 'country', 'country' => NULL),
+    'details'           => $struct + array('template' => 'details', 'country' => NULL),
+    'datasource'        => $struct + array('template' => 'datasource', 'datasource' => NULL),
+    'datasources'       => $struct + array('template' => 'datasources'),
+    'indicator'         => $struct + array('template' => 'indicator', 'indicator' => NULL),
+    'indicators'        => $struct + array('template' => 'indicators'),
+    'reuse'             => $struct + array('template' => 'reuse'),
+    'widgets'           => $struct + array('template' => 'widgets'),
+  );
+}
+
+/**
+ * Rebuild breadcrumbs for Landbook pages
+ */
+function landbook_page_alter(&$page) {
+  $e = explode('/', $_GET['q']);
+  if ($e[0] == 'book') {
+    $data = (isset($page['content']['system_main']['content']['#data']) ?
+             $page['content']['system_main']['content']['#data'] :
+             (isset($page['content']['system_main']['#data']) ?
+              $page['content']['system_main']['#data']  : ''));
+    $breadcrumb = drupal_get_breadcrumb();
+    $breadcrumb[0] = l(t('Landbook'), 'book');
+    if ($e[1] == 'countries' && $e[count($e)-1] == 'details') {
+      $breadcrumb[2] = l($data['info']['name'], 'book/countries/'.$e[2]);
+    }
+    $breadcrumb[] = l(t(drupal_get_title()), $_GET['q']);
+    drupal_set_breadcrumb($breadcrumb);
+  }
+}
+
+/**
+ * Fill up sidebar blocks for Landbook pages
+ *
+ * This is a nasty way to build those blocks content after the page callback
+ * They need information pulled by the landbook page callback to be build.
+ * Usually pages (such as country detail, regions...) would depend on them
+ * to work properly (the dynamic content being build by JS relying on those
+ * blocks to pull / display content.
+ */
+function landbook_page_build(&$page) {
+  // If we don't have a 'data' elements in the main content, it is probably not a landbook page.
+  if (!isset($page['content']['system_main']['content']['#data'])) return;
+
+  $data = $page['content']['system_main']['content']['#data'];
+  $type = (isset($page['content']['system_main']['content']['#theme']) ?
+           $page['content']['system_main']['content']['#theme'] :
+           (isset($page['content']['system_main']['#theme']) ?
+            $page['content']['system_main']['#theme'] :
+            $page['#type']));
+
+  // Country pages
+  if ($type == 'country' && isset($data['entity-id'])) {
+    $page['sidebar_first']['landbook_country_sidebar_first']['#markup'] =
+      landbook_country_sidebar_first($data);
+    $page['sidebar_second']['landbook_country_sidebar_second']['#markup'] =
+      landbook_country_sidebar_second($data);
+    $page['sidebar_first']['#sorted'] = FALSE;
+    $page['sidebar_second']['#sorted'] = FALSE;
+  }
+
+  // Indicator
+  if ($type == 'indicator') {
+    $page['sidebar_second']['landbook_indicator_sidebar_second']['#markup'] =
+      landbook_indicator_sidebar_second($data);
+    $page['sidebar_second']['#sorted'] = FALSE;
+  }
+
+  // Regions
+  if ($type == 'regions') {
+    $page['sidebar_second']['landbook_regions_selectors']['#markup'] =
+      landbook_regions_selectors($data);
+    $page['sidebar_second']['#sorted'] = FALSE;
+  }
+}
+
+/**
+ * Implement hook_menu
+ *
+ * Landbook menus consists of:
+ *  - a main-menu entry pointing to book
+ *  - a 'header-section' menu to navigate the landbook modules
+ *  - an admin menu to manage the module settings
+ */
+function landbook_menu() {
+  $items = array();
+  landbook_menu_admin($items);
+  landbook_menu_build($items);
+  // Landbook main-menu link
+  $items['book'] = array(
+    'title'		=> 'Landbook',
+    'menu_name'		=> 'main-menu',
+    'type'              => MENU_NORMAL_ITEM,
+    'access callback'	=> TRUE,
+    'page callback'	=> 'drupal_goto',
+    'page arguments'    => array('book/regions'),
+  );
+  $translatables['book'][] = t($items['book']['title']);
+  return $items;
+}
+
+
+
+/**
+ * Dirty shit that should be converted to a rendered block
+ * this would also mean tweaking the data structure and so on...
+ */
+function landbook_table_render($data) {
+  //if ($data) dpm($data, 'table_render');
+  $str = '
+<div class="table-responsive">
+  <table class="graphs table table-striped">
+    <thead>
+      <tr>';
+  $str .= '        <th class="regionCode">' . t('Country code') . '</th>';
+  $str .= '        <th class="regionName">' . t('Country name') . '</th>';
+  $str .= '        <th class="indicatorCode">' . t('Indicator code') . '</th>';
+  $str .= '        <th class="indicatorName">' . t('Indicator name') . '</th>';
+  $str .= '        <th class="value">' . t('Value') . '</th>';
+  $str .= '        <th class="time">' . t('Year') . '</th>';
+  $str .= '                 </tr>
+            </thead>
+            <tbody>';
+  if (isset($data['observations'])) {
+    foreach ($data['observations'] as $o) {
+      $str .= '    <tr>';
+      $str .= '      <td class="regionCode">' . (isset($o['country']['code']) ? $o['country']['code'] : '') . '</td>';
+      $str .= '      <td class="regionName">' . $o['country']['name'] . '</td>';
+      $str .= '      <td class="indicatorCode">' . $o['indicator']['id'] . '</td>';
+      $str .= '      <td class="indicatorName">' . $o['indicator']['name'] . '</td>';
+      $str .= '      <td class="value">' . $o['value']['value'] . '</td>';
+      $str .= '      <td class="time">' . $o['ref_time']['value'] . '</td>';
+      $str .= '    <tr>';
+    }
+  }
+  $str .= '  </tbody>
+</table>
+</div>';
+      return $str;
+}
+
+/**
+ * Register JS variables through Drupal system.
+ * They are (only?) used by landbook/js/controller/*js files
+ */
+function landbook_add_js_vars($args=NULL) {
+  global $language;
+  $path = '/' . drupal_get_path('module', 'landbook');
+  $url = '/' . drupal_get_path('theme', 'landportal');
+  // Use those variables in javascript with:
+  //   var XXX = Drupal.settings.landbook.XXX
+  drupal_add_js(array('landbook' => array(
+                                          'countryCode' => $args,
+    'languageCode'    => $language->language,
+    'imagesURL'       => $url . '/images',              // landportal theme related
+    'ajaxURL'         => $path . '/ajax',               // landbook module related
+    // TODO: Should be configurable through admin/settings/landbook/services,
+    //  & have default values in local.settings.php or sum'thing
+    'apiURL'          => $GLOBALS['landbook_urls']['api'],
+    'ckanURL'         => $GLOBALS['landbook_urls']['ckan'],
+    'sparqlURL'       => $GLOBALS['landbook_urls']['sparql'], // not really used?
+  )), 'setting'
+  );
+}
+
+/**
+ * Includes specific Landbook Javascripts and CSS
+ * This is directly included by the 'page callback' functions (in landbook/modules/*inc)
+ * Not all pages require this to work.
+ */
+function landbook_add_js_css() {
+  // Global stuff for the portal, should live in theme (?)
+  //drupal_add_js(drupal_get_path('module', 'landbook').'/js/search.js');
+  //drupal_add_js(drupal_get_path('module', 'landbook').'/js/ajax.js');
+  // Weird shit from WESO students re-inventing the wheel
+  //drupal_add_js(drupal_get_path('module', 'landbook').'/js/language.js');
+
+  // Some customs helpers, libraries and  finally the 'wesCountry' script
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/util.js');
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/country_chart_options.js');
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/libraries/canvg.js');
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/libraries/rgbcolor.js');
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/libraries/StackBlur.js');
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/libraries/seedrandom.min.js');
+  drupal_add_js(drupal_get_path('module', 'landbook').'/js/libraries/wesCountry.min.js');
+
+  // TODO: use separate function to do CSS includes: hook_preprocess_html (?)
+  drupal_add_css(drupal_get_path('module', 'landbook').'/js/libraries/wesCountry.min.css');
+  drupal_add_css(drupal_get_path('module', 'landbook').'/landbook.css');
+}

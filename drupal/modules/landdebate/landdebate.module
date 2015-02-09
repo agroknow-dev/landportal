@@ -1,0 +1,110 @@
+<?php
+/**
+ * @file
+ * Code for the Landdebate feature.
+ */
+
+include_once 'landdebate.features.inc';
+/**
+ * @file
+ * This module provide an interface to the landdebate section of the Landportal.
+ *
+ * The Landportal landdebate
+ *
+ * Original work by: WESO
+ * Drupal refactoring: Jules <jules@ker.bz>
+ */
+
+$GLOBALS['landdebate_menu'] = 'landdebate-menu';
+$GLOBALS['landdebate_content_types'] = array(
+  'news' => 'news',
+  'debate' => 'debates',
+  'event' => 'events',
+  'blog_post' => 'blog',
+  'organization' => 'community'
+);
+
+//ctools_include('landdebate.view_default',       'landdebate'); // automatically called by hook_views_api (?)
+//ctools_include('landdebate.context',            'landdebate');
+ctools_include('landdebate.menu',               'landdebate');
+
+function landdebate_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "context" && $api == "context") {
+    return array("version" => "3");
+  }
+}
+
+
+function landdebate_help($path, $arg) {
+  switch ($path) {
+  case "admin/help#landdebate":
+    return '<p>' . t("Landdebate section of the Landportal") . '</p>'
+      . '<p>'. t("This come with a (header) Block, customised View(s) and a landdebate main-menu item").'</p>'
+      . '<p>'. t("Landdebate sections are:").'</p>'
+      ;
+    break;
+  }
+}
+
+function landdebate_menu() {
+  $items = array();
+  landdebate_menu_admin($items);
+  landdebate_menu_build($items);
+
+  // Landdebate frontend
+  $items['debate'] = array(
+    'title'		=> 'Landdebate',
+    'menu_name'		=> 'main-menu',
+    'access callback'	=> TRUE,
+    'weight'            => 1,
+    'page callback'	=> 'drupal_goto',
+    'page arguments'	=> array('debate/debates'),
+  );
+  $translatables['debate'][] = t($items['debate']['title']);
+  return $items;
+}
+
+
+function landdebate_node_view_alter(&$build) {
+    $node = $build['#node'];
+    if($build['#view_mode'] == "full" && in_array($node->type, array_keys($GLOBALS['landdebate_content_types']))) {
+      $title = ucfirst($node->type).(substr($node->type, -1) != 's' ? 's' : '');
+      $breadcrumb[0] = l(t('Landdebate'), 'debate');
+      $breadcrumb[] = l(t($title), 'debate/' . $node->type);
+      $breadcrumb[] = l(t(drupal_get_title()), $_GET['q']);
+      drupal_set_breadcrumb($breadcrumb);
+    }
+}
+
+/**
+ * Rebuild breadcrumbs for Landdebate pages
+ */
+function landdebate_page_alter(&$page) {
+  $e = explode('/', $_GET['q']);
+  if ($e[0] == 'debate') {
+    $breadcrumb = drupal_get_breadcrumb();
+    $breadcrumb[0] = l(t('Landdebate'), 'debate');
+    if (count($e) > 1 && in_array($e[1], array_keys($GLOBALS['landdebate_content_types']))) {
+      $title = ucfirst($e[1]).(substr($e[1], -1) != 's' ? 's' : '');
+      $breadcrumb[] = l(t($title), 'debate/'.$e[1]);
+    }
+    drupal_set_breadcrumb($breadcrumb);
+  }
+  $translatables['debate'][] = t('Landdebate');
+}
+
+
+/**
+ * Blocks configuration for landdebate section header
+ *
+ * TODO: bugfix: pages & visibility config doesn't appear in the block configuration page (it seems to work ok though)
+ */
+function landdebate_block_info_alter(&$blocks, $theme, $code_blocks) {
+  if ($theme == 'landportal') {
+    $blocks['menu'][$GLOBALS['landdebate_menu']]['status'] = TRUE;
+    $blocks['menu'][$GLOBALS['landdebate_menu']]['region'] = 'section_header';
+    $blocks['menu'][$GLOBALS['landdebate_menu']]['visibility'] = BLOCK_VISIBILITY_LISTED;
+    $blocks['menu'][$GLOBALS['landdebate_menu']]['pages'] = "debate\ndebate/*";
+  }
+  return $blocks;
+}

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2" xmlns:dcterms="http://purl.org/dc/terms/">
+
+<ags:resource ags:ARN="PH2007000715">
+		<dc:title xml:lang="en">Participatory land use planning in Kaliwa Watershed, Tanay, Rizal (Philippines)</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Racelis, D. A.,Philippines Univ. Los Baños, College Laguna (Philippines)  Coll. of Forestry and Natural Resources</ags:creatorPersonal>
+			<ags:creatorConference>2005 Symposium of the Forests and Natural Resources Research Society of the Philippines, Inc., , College, Laguna (Philippines), 30 Nov - 1 Dec 2005</ags:creatorConference>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherPlace>College, Laguna  (Philippines)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>2005</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">E11</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">WATERSHEDS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND USE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PLANNING</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RURAL COMMUNITIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SOCIAL PARTICIPATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">COMMUNITY INVOLVEMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PHILIPPINES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">BASSIN VERSANT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">UTILISATION DES TERRES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PLANIFICATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">COMMUNAUTE RURALE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PARTICIPATION SOCIALE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PARTICIPATION COMMUNAUTAIRE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PHILIPPINES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CUENCAS HIDROGRAFICAS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">UTILIZACION DE LA TIERRA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PLANIFICACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">COMUNIDADES RURALES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PARTICIPACION SOCIAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PARTICIPACION COMUNITARIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">FILIPINAS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_8334</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_4182</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_5951</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_6700</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_14373</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_37559</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC">http://www.fao.org/aos/agrovoc#c_5783</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<ags:descriptionNotes>Summary only</ags:descriptionNotes>
+			<ags:descriptionNotes>Received May 2006</ags:descriptionNotes>
+			<dcterms:abstract xml:lang="En">A participatory land use zoning project was implemented in 8 barangays [villages] in the Kaliwa Watershed. It essentially involved the determination and identification of socially equitable, environmentally acceptable and economically feasible land uses. Such an approach could ensure the sustainability of identified land uses and at the same time promote the general welfare and empower communities in sustainably managing the watershed. Specifically, it aimed to: a) delineate the boundaries of the 8 barangays in the Kaliwa watershed; b) delineate barangay land use zones; c) prepare barangays 3D land use maps; d) formulate prescriptions and regulations for the use of the land use zones in the barangays; and e) establish land use demonstration sites to showcase sustainable land use systems in the watershed. The project consisted of three major components including: a) survey and mapping; b) participatory land use; and c) land use demonstration. The survey and mapping component involved the delineation and mapping of barangay boundaries, and delineation of barangay land use zones, and participatory 3D land use mapping. Participatory land use planning included training and capacitating locals in carrying out barangay land use planning, formulation and legitimization of prescriptions and regulations for the use of land use zones, and preparation and legitimization of land use plans. Land use demonstration enabled the showcased field level intervention to improve current land uses. The respective current land use maps of the barangays were prepared and updated. Surveys were made to define the extent of existing land uses and define the respective boundaries of the barangays. Field surveys showed that boundary conflicts exist among most of the barangays in the watershed. Technical descriptions of the boundaries were generated using topographic maps, remote sensing data and field survey data. Land use planning teams were organized in each barangay to facilitate the implementation and institutionalization of participatory land use planning at the community level. A series of planning to familiarize the local communities on the fundamentals of participatory land use planning. Focused group discussions were also conducted to gather relevant data and define the perceptions of local communities with regard to resource use and land use zoning. Each barangay was able to formulate their respective land use guidelines and prescriptions, which they used to formulate the indicative barangay land use plan. The land use guidelines and criteria were also used to identify the proposed land uses per barangay. The land use guidelines and  land use plans were endorsed by the respective barangay councils through a resolution. They were also endorsed to the municipal council for proper affirmation. The feasibility of proposed land uses were determined through erosion modeling. Results showed that land use zoning could significantly improve the sustainability of the watershed. Comparison between current and proposed land uses indicated that erosion is lower if land use zoning is adapted. The proposed land uses particularly protection forests and agroforestry are desirable land uses that could mitigate soil erosion. Eight 3D land use maps were developed to facilitate the implementation of land use zoning in the barangays. Four land use demonstration sites were successfully established including alley-cropping/ agroforestry/ fruit orchard-mango plantation, reforestation-mixed planting, and assisted natural regeneration.</dcterms:abstract>
+		</dc:description>
+		<dc:type>K</dc:type>
+		<dc:type>V</dc:type>
+		<dc:type>E</dc:type>
+		<dc:format>
+			<dcterms:extent>p. 20</dcterms:extent>
+		</dc:format>
+		<dc:language scheme="ags:ISO639-1">En</dc:language>
+		<agls:availability>
+			<ags:availabilityLocation>*UPLB Main Library, College Laguna  (Philippines)</ags:availabilityLocation>
+			<ags:availabilityNumber>2007000715</ags:availabilityNumber>
+		</agls:availability>
+		<dc:source>New Frontiers in Forest and Natural Resources Research: Abstracts of Papers, Forests and Natural Resources Research Society of the Philippines, Inc., College, Laguna (Philippines).- College, Laguna  (Philippines), 2005. 2005 Symposium of the Forests and Natural Resources Research Society of the Philippines, Inc.,2005 Symposium of the Forests and Natural Resources Research Society of the Philippines, Inc., College, Laguna (Philippines), 30 Nov - 1 Dec 2005.- p. 20</dc:source>
+	</ags:resource>
+<ags:resource ags:ARN="GB2013203715">
+	<dc:title xml:lang="eng"><![CDATA[Land reform, agriculture and poverty reduction]]></dc:title>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[Department for International Development, UK]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2004</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[land reform]]></dc:subject>
+	<dc:subject><![CDATA[land redistribution]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure.Land registration]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure.Communal land]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land policies]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Poverty]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[tenure]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Africa]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land reform]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Economic growth]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[South Africa]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land use]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land administration]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[What we know and don't know about land reform for poverty reduction]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[Most land-based livelihoods rely on having secure access to land, a precondition for sustainable agriculture, economic growth and poverty reduction. This working paper examines the state of knowledge with regard to aspects of land reform- redistributive reform, land tenure reform, and the issue of land markets.  It also addresses issues that remain unknown in areas of land and social equity, land administration, and land tax.Redistributive land reform aims to bring about an equitable distribution of land and the political power emanating from it. Past results have been less than impressive, and agrarian restructuring has been very slow.Tenure reform, has been plagued by a failure to appreciate the complex and highly contested nature of land issues in post-colonial states. The paper notes that land policy reform is unlikely to have significant poverty reducing effects unless attention is paid to institutional capacity building.Efficient transactions in land markets can encourage the transfer of land from less productive to more productive use, but excessive state regulation and bureaucracy are often the norm. Temporary transfers through land rental are an important redistribution mechanism. Rental markets- an important redistribution mechanism- have lower transaction costs and can help households deal with shocks or stresses without loss of productive assets.What don’t we still know about land reform? The following pertinent questions remain:what are the precise transmission mechanisms by which land reform contributes to poverty reduction?what are the synergies and/or trade-offs between greater equality in land ownership and increasing agricultural growth for poverty reduction?what kinds of land transfers can be carried out within land administration for improved growth and poverty outcomes in agriculture?how do current land administration arrangements prevent land transfers for positive growth and poverty reduction?what sorts of revised approaches to land administration are best, and how can they be designed and implemented?what forms of land and production taxes are most likely to encourage increases in agricultural productivity?how can land taxation systems be designed so they do not discourage investments by small-scale farmers, and under what circumstances is this appropriate? ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://dfid-agriculture-consultation.nri.org/summaries/wp5.pdf]]></dc:identifier>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.eldis.org/vfile/upload/1/document/0708/DOC19660.pdf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+</ags:resource>
+<ags:resource ags:ARN="QV2005000042">
+
+<dc:title xml:lang="en">Land cover and land use in Syria: An overview</dc:title>
+
+<dc:creator>
+
+<ags:creatorPersonal>De Pauw, E.</ags:creatorPersonal>
+
+<ags:creatorPersonal>Oberle, A.</ags:creatorPersonal>
+
+<ags:creatorPersonal>Zoebisch, M. (ICARDA, Aleppo (Syria))</ags:creatorPersonal>
+
+<ags:creatorCorporate>Asian Institute of Technology (AIT), Klong Luang, Pathumthani (Thailand)</ags:creatorCorporate>
+
+<ags:creatorCorporate>World Association of Soil and Water Conservation (WASWC), Beijing (China)</ags:creatorCorporate>
+
+<ags:creatorCorporate>International Center for Agricultural Research in the Dry Areas, Aleppo (Syria)</ags:creatorCorporate>
+
+</dc:creator>
+
+<dc:publisher><ags:publisherName>Asian Institute of Technology - AIT</ags:publisherName>
+
+<ags:publisherPlace>Klong Luang, Pathumthani (Thailand)</ags:publisherPlace>
+
+</dc:publisher>
+
+<dc:date><dcterms:dateIssued>2004</dcterms:dateIssued>
+
+</dc:date>
+
+<dc:subject>
+
+<ags:subjectClassification scheme="ags:ASC">P01</ags:subjectClassification>
+
+<ags:subjectClassification scheme="ags:ASC">E11</ags:subjectClassification>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND USE</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">VEGETATION</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND MANAGEMENT</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND CLASSIFICATION</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">GEOGRAPHICAL INFORMATION SYSTEMS</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">REMOTE SENSING</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND DEGRADATION</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">CARTOGRAPHY</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">COVER PLANTS</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">ECOLOGY</ags:subjectThesaurus>
+
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SYRIA</ags:subjectThesaurus>
+
+</dc:subject>
+
+<dc:description>
+
+<ags:descriptionNotes>Ref., maps</ags:descriptionNotes>
+
+<dcterms:abstract xml:lang="En">This research report presents a study of land cover and land use in Syria as it existed during the period 1989/1990. It is based on an interpretation of satellite-derived products (Landsat 5 TM hardcopy images) and field checking. The main product is a Land Use/Land Cover map of Syria for the base year 1989/1990. The major source of information was Syria Space Image Atlas prepared by the General Organization of Remote Sensing in Syria (GORS). For this land cover/land use map a local and a-posteriori classification system was selected, and incorporating elements of both land cover and of land use. Map compilation was essentially a GIS exercise, based on visual interpretation of observed features. The map legend consists of two main classes: homogeneous units, which can be considered relatively pure (80-90%), and mixed units, which are complexes of homogeneous units. Twenty four homogeneous classes were differentiated on the basis of the following major categories: (i) bare areas with or without sparse cover, (ii) cultivated areas, (iii) forests and other wooded areas, (iv) rangelands, (v) urbanized areas, (vi) water bodies. In addition, 43 mixed classes were distinguished. For the base year 1989/1990 about one third of Syria (about 34%) was cultivated, mostly under rainfed systems. Considering the semi-arid or arid conditions in the country, this is a very high proportion of agriculture to the total land area. Of the cultivated area, about 8,000 km2 was irrigated. This is probably an underestimation, and, if the areas are included of mixed units in which irrigated land use occurs as a minority land use, a total estimate of about 11,500 km2 of irrigated land was obtained. Forested or wooded areas had a very limited extent in the country, about three percent. Overall there is a good agreement between the land use estimates obtained from the remote sensing interpretation and statistics derived from the Food and Agriculture Organization of the United Nations database, FAOSTAT. However, some allowance needs to be made for features that can not be 'seen' but recorded in official statistics as 'land use'. The most conspicuous case is for the rangelands, which receive a rather low tally as a separate category from the image interpretation, but a high one in the FAO statistics. The explanation for this discrepancy is simply that many 'bare' lands are grazed during part of the year, but that this land use  cannot be observed, only inferred, given its lack of visibility on summer imagery. If bare lands and rangelands are lumped together, the correspondence between estimates from remote sensing and production statistics is quite good. Another interesting finding is the good correspondence between land cover/land use patterns and the major physical regions of Syria. The imagery used for this study allows drawing only limited, but useful, conclusions about the prevalence of land degradation and the current activity of degradation processes. In addition, it is not always easy to separate those forms of degradation that are entirely natural from those that are man-made. Three forms of land degradation processes could be identified or inferred from the imagery: (i) vegetation degradation, (ii) wind and water erosion, and (iii) salinization. The current land cover/land use map has applications in land use planning and research related to the characterization and evolution of production systems and land degradation. The approach to land cover/land use mapping, based on manual interpretation of a hardcopy image product, while perfectly acceptable at the time to achieve a high-priority research goal in a short time under prevailing constraints of data products and budgets, will probably not be replicated in the future. With the cost of medium-resolution imagery dropping markedly over the last few years, and image analysis software becoming cheaper, more powerful and user-friendly, it is unavoidable that any new land cover/land use mapping will be based on image analysis rather than manual interpretation. Given the rapid rate of change in the rural environments of Syria, an update on the land cover/land use situation is urgently needed for the period 2000-2005</dcterms:abstract>
+
+</dc:description><dc:identifier scheme="ags:ISBN">974-92678-8-5</dc:identifier>
+
+<dc:type>V</dc:type>
+
+<dc:format><dcterms:extent>47 p.</dcterms:extent></dc:format>
+
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+
+<agls:availability><ags:availabilityLocation>QV</ags:availabilityLocation><ags:availabilityNumber>*QV. E-mail: LIBRARY-ICARDA@CGIAR.ORG Kamal Hindawi</ags:availabilityNumber></agls:availability>
+
+</ags:resource>
+<ags:resource ags:ARN="GB2013202629">
+	<dc:title xml:lang="eng"><![CDATA[Land rights for African development: from knowledge to action]]></dc:title>
+	<dc:creator>
+		<ags:creatorPersonal><![CDATA[E. Mwangi]]></ags:creatorPersonal>
+		<ags:creatorPersonal><![CDATA[E. Patrick]]></ags:creatorPersonal>
+	</dc:creator>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[CGIAR System-wide Program on Property Rights and Collective Action]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2006</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[Rosalie Kingwill]]></dc:subject>
+	<dc:subject><![CDATA[Clarissa Augustinus]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Rural development]]></dc:subject>
+	<dc:subject><![CDATA[Legal Dualism and Land Policy in Eastern and Southern Africa]]></dc:subject>
+	<dc:subject><![CDATA[Legal Pluralism as a Policy Option: Is it Desirable? Is it Doable?]]></dc:subject>
+	<dc:subject><![CDATA[Donna Hornby]]></dc:subject>
+	<dc:subject><![CDATA[Questioning the Mythologies of Hernando de Soto]]></dc:subject>
+	<dc:subject><![CDATA[Liz Alden Wily]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure.Land registration]]></dc:subject>
+	<dc:subject><![CDATA[Getting the Process Right: The Experience of the Uganda Lan]]></dc:subject>
+	<dc:subject><![CDATA[Biting the Bullet: How to Secure Access to Drylands Resources for Multiple Users]]></dc:subject>
+	<dc:subject><![CDATA[The Commons and Customary Law in Modern Times: Rethinking the Orthodoxies]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure.Communal land]]></dc:subject>
+	<dc:subject><![CDATA[Joan Kagwanja]]></dc:subject>
+	<dc:subject><![CDATA[Patrick McAuslan]]></dc:subject>
+	<dc:subject><![CDATA[Gender Issues in Land Tenure under Customary law]]></dc:subject>
+	<dc:subject><![CDATA[Lauren Royston]]></dc:subject>
+	<dc:subject><![CDATA[Will Formalizing Property Rights Reduce Poverty in South Africa’s “Second Economy”?]]></dc:subject>
+	<dc:subject><![CDATA[Esther Mwangi]]></dc:subject>
+	<dc:subject><![CDATA[Stephan Dohrn]]></dc:subject>
+	<dc:subject><![CDATA[Klaus Deininger]]></dc:subject>
+	<dc:subject><![CDATA[Ben Cousins]]></dc:subject>
+	<dc:subject><![CDATA[Land Tenure, Land Reform, and the Management of Land and Natural Resources in Africa]]></dc:subject>
+	<dc:subject><![CDATA[Stephen Turner]]></dc:subject>
+	<dc:subject><![CDATA[Hubert M.G. Ouedraogo]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[Martin Adams]]></dc:subject>
+	<dc:subject><![CDATA[Warren Smit]]></dc:subject>
+	<dc:subject><![CDATA[Patricia Kameri-Mbote]]></dc:subject>
+	<dc:subject><![CDATA[Innovations in Land Tenure, Reform and Administration in Africa]]></dc:subject>
+	<dc:subject><![CDATA[Tessa Cousins]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject><![CDATA[Decentralization: An Enabling Policy for Local Land Management]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land policies]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land management]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Right of access]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Role of women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[tenure]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[legislation]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[legal rights]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land rights]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[decentralization]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[Land tenure innovations required to secure sustainable rural development]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[This collection of briefing papers summarises select papers presented at the workshop: "Land Rights for African Development: From Knowledge to Action" held in November 2005. The workshop addressed key land tenure issues in Africa that influence food security, environmental sustainability, agricultural intensification, conflict, peace building and broader rural development.Issues covered by the 12 briefing papers contained in this collection include: the prevalence and importance of customary tenurethe prevalence and importance of common property arrangementsconstraints to women’s access under both customary and statutory tenurethe need to secure common property and other forms of tenurethe importance of broad based participation to secure broad consensus among multiple actors in order to enhance the efficiency, equity and sustainability objectives of land tenure reforms.The briefing papers also reflect on the innovations necessary for securing tenure for the poor under a variety of settings. These innovations include:adjusting received law to customary norms and rules of land holding and access, as opposed to outright replacing customary tenurealtering lending rules by banks and financial institutions to promote land-related investments (even on land regulated by customary and/or religious law)de-emphasising the notion of ownership and refocusing on use rights in order to secure women’s rights and accessrestructuring conventional land administration systems to support group-based rights structuresencouraging decentralised land management systems that reflect local cultural norms and practicesin situations of multiple, overlapping resource use, strengthening processes of negotiation and conflict resolution as opposed to a generic concern with substantive rights in order to secure the access of permanent and transitory resource users.A ten-step procedure is also suggested (Alden Wily), which would enable communities to restore their group rights and practices to create and control their own tenure norms. These innovations, while desirable, are also risky: corruption, elite capture, exclusion of "non-members" and lack of capacities have been hurdles faced by communities.Agreed outcomes from the workshop include the following:land tenure in Africa is complex: the existence of customary, religious and statutory arrangements (i.e. legal pluralism) is a critical, defining feature of African land tenure. Land tenure reform must accommodate this complexity rather than replace itthe pit-falls of formalisation should be avoided, and in particular tenure codification should be delinked from collateralisation: cheaper ways of registering rights than the cadastre are neededin order to effectively address land tenure security, power issues at local and national levels must be addressed: there is a need for a multi-level, multiple actor approach. Land tenure reform is an urgent governance issue that can best be addressed by all development partners in collaborationon evaluation: the implementation and impacts of land tenure reforms should be evaluated at multiple governance levels in order to identify constraints, craft solutions, and to ensure that reforms are securing the rights and livelihoods of women, the poor and marginalised groupson innovation: new innovations are needed over and above tinkering with existing possibilities. For instance, the development of centres for legal advice and assistance for both rural and urban dwellers may enable the poor to claim their rights and even challenge abuses of power. ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.capri.cgiar.org/pdf/brief_land.pdf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+</ags:resource>
+<ags:resource ags:ARN="US2012406969">
+	<dc:title xml:lang="eng"><![CDATA[GEF Land Degradation Linkage Study]]></dc:title>
+	<dc:title>
+		<ags:titleSupplement><![CDATA[GEF Land Degradation Linkage Study]]></ags:titleSupplement>
+	</dc:title>
+	<dc:creator><![CDATA[Berry, Leonard; Olson, Jennifer;]]></dc:creator>
+	<dc:creator>
+		<ags:creatorCorporate><![CDATA[Global Envirnmt Facility Secretr (GEF)]]></ags:creatorCorporate>
+	</dc:creator>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[The World Bank]]></ags:publisherName>
+		<ags:publisherPlace><![CDATA[Washington, DC (USA)]]></ags:publisherPlace>
+	</dc:publisher>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land degradation]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Carbon]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land management]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Degradation]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Biodiversity]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Protected areas]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Forecasting]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Climatic change]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land use]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description><dcterms:abstract><![CDATA[The purpose of this report is to   identify the results, and initial impact of the land   degradation component of those linkage projects which   encompass biodiversity, international waters, and climate   change with land degradation. The lessons learned from this   review lead to recommendations on how land degradation   issues should be addressed in focal area reviews, and in   subsequent Global Environment Facility (GEF) activities. In   general, the detailed study of project documents shows that   the land degradation component of projects is not as strong   as suggested in previous GEF reports, though this desk   analysis may not reveal actual field-level actions, and   priorities. It is clear, however, that the number of land   degradation projects, and financial allocation to land   degradation, has not increased in recent years, with the   exception of medium-size projects. An initial analysis of   this trend suggests some basic causes, which have limited   land degradation linkage activities: project concepts are   usually based on focal area activities, rather than linkage   activities such as land degradation; 69 percent of projects   with land degradation linkages are in the biodiversity focal   area, of which 77 percent are located in, or near protected   conservation areas, not usually regions of the highest land   degradation concern; international waters projects have   included land degradation mitigation in some cases, but the   specifics have tended to focus on institutional, and water   pollution aspects, rather than land degradation, mitigation,   and catchment management activities; climate change projects   have not in recent years, focused much on land degradation   because current climate change operational programs are not   addressing land management issues, though there seem to be   opportunities to expand this linkage with a new operational   program; and finally, the difficulty in estimating   incremental costs of mitigation activities, when the   activities are usually providing local, as well as global   benefits. The review of project documents did provide some   clear findings: GEF projects with a strong land degradation   component are fewer than previously thought, revealing   projects containing a strong land degradation component have   been allocated about US$278 million by the GEF, though the   portion that comprises the land degradation component is   estimated at US$50 million of the GEF portfolio. Moreover,   the most effective linkage projects appear to be those where   land degradation is built in as an initial component of the   problem, and the solution. And, in biodiversity linkage   projects, rangeland environments have created the best land   degradation/biodiversity synergy. A for international waters   projects, land issues - while included - have been generally   given less prominence in project implementation, and,   projects with a people/land management focus tend to address   land degradation issues more directly.]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="ags:RN"><![CDATA[26666]]></dc:identifier>
+	<dc:identifier scheme="ags:ISBN"><![CDATA[1-884122-81-7]]></dc:identifier>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www-wds.worldbank.org/servlet/WDSContentServer/IW3P/IB/2003/09/03/000012009_20030903113957/Rendered/PDF/266660Monitoring010Evaluation0no.06.pdf]]></dc:identifier>
+	<dc:type><![CDATA[Working Paper (Numbered Series)]]></dc:type>
+	<dc:language scheme="dcterms:ISO639-2"><![CDATA[eng]]></dc:language>
+	<dc:source><![CDATA[1 of 1]]></dc:source>
+	<dc:coverage><dcterms:spatial scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[World]]></dcterms:spatial></dc:coverage>
+	<ags:citation>
+		<ags:citationTitle><![CDATA[GEF Monitoring and Evaluation working paper
+            ; no. 6]]></ags:citationTitle>
+		<ags:citationIdentifier scheme="ags:ISSN">1020-894;</ags:citationIdentifier>
+	</ags:citation>
+</ags:resource>
+<ags:resource ags:ARN="GB2013202724">
+	<dc:title xml:lang="eng"><![CDATA[Seeking ways out of the impasse on land reform in Southern Africa: notes from an informal ‘think tank’ meeting]]></dc:title>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[Oxfam]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2003</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[HIV.Treatment and care]]></dc:subject>
+	<dc:subject><![CDATA[land reform]]></dc:subject>
+	<dc:subject><![CDATA[land rights]]></dc:subject>
+	<dc:subject><![CDATA[women]]></dc:subject>
+	<dc:subject><![CDATA[rural]]></dc:subject>
+	<dc:subject><![CDATA[HIV/AIDS]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[customary land rights]]></dc:subject>
+	<dc:subject><![CDATA[gender mainstreaming]]></dc:subject>
+	<dc:subject><![CDATA[Southern Africa]]></dc:subject>
+	<dc:subject><![CDATA[gender]]></dc:subject>
+	<dc:subject><![CDATA[land redistribution]]></dc:subject>
+	<dc:subject><![CDATA[HIV]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Labour]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[water supply]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[foods]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Poverty]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Role of women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Disasters]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Development aid]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Climatic change]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Natural disasters]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[What are the key issues surrounding land reform in Southern Africa?]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[Land reform in Southern Africa is currently at an impasse.  This paper analyses the constraints to sustainable land reform and identifies ways and means of moving things forward.  In addition, appendices to the document include country by country reviews of the status of land reform in each country, and a matrix providing an overview of current land issues in the region.The document finds that whilst some progress has been achieved with tenure reform in Botswana, Malawi and Mozambique, many challenges remain across the region, particularly for Zimbabwe, South Africa and Namibia.  The paper finds that the following issues need to be understood and addressed:Cyclical patterns of land reform in the region:initial strong political commitment to land redistribution often gives way to an emphasis on ‘economic’ goals rather than the eradication of poverty, which tends to favour elite landowners rather than the landless lobby.Redistributive land reform:in the context of the region, and in particular South Africa, the following need to be addressed:balancing redistribution with sustainable rural developmentthe productivity of small farmersestablishing post-transfer support (farm credit, extension services) in complex institutional contextshigh rural to urban migrationmobilisation for change amongst civil society and businessthe possibility of dropping the ‘willing buyer, willing seller’ approachLand tenure reform:is a crucial issue as it may assure the land rights of the majority of the population, because of the potential link between secure land rights, investment and economic growth, and because it is an important safeguard against creating land or income inequality in the future.Land rights of women:across the region, women suffer from strong male bias in relation to land rights. Despite pockets of success (for example Botswana), there is insufficient attention to mainstreaming gender concerns into land policy and implementation. This applies not only to governments and public and customary institutions, but also to many donor and NGO programmes.Customary land rights and systems:initiatives to protect customary land rights alongside formal rights in polarised and racially divided contexts such as Zimbabwe, South Africa and Namibia can benefit from looking at the experiences of lower profile countries of Botswana, Mozambique and Malawi.  Emphasis should be placed upon the process (who is involved in the policy discussions and subsequent implementation) as much as the technical content and substance of the resulting programme.HIV/AIDS and land:the potentially catastrophic impact of HIV/AIDS requires a re-examination of many basic assumptions underpinning land policy work.  The pandemic is bringing the negative impact of aspects of customary law on the livelihoods of women and children into sharper focus, as their land rights become more vulnerable to dispossession by patrilineal kin on the death of male household heads. More attention needs to be paid to understanding the impact of HIV/AIDS on land tenure.Donor support to government land reform programmes is increasingly politically sensitive for both donors and recipient governments. However, donors should continue to support a redistribution agenda, which should be a long-term iterative process, requiring feedback, learning and involvement of many stakeholders.Donor support to civil society initiativesshould be further encouraged, for example through a ‘Land Reform Fund’. Civil society organisations are a source of knowledge and information, are effective partners in implementing land reform, and can also be important in kick-starting new government initiatives. ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.oxfam.org.uk/what_we_do/issues/livelihoods/landrights/downloads/impassertf.rtf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+</ags:resource>
+<ags:resource ags:ARN="JP1999006974">
+<dc:title xml:lang="en">Relationships between recent land-use change and legal land-use classification in the area of greater Sapporo [Japan]</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Yazawa, M. (Hokkaido Univ., Sapporo (Japan))</ags:creatorPersonal>
+<ags:creatorPersonal>Takatsuki, D.</ags:creatorPersonal>
+<ags:creatorPersonal>Wang, X.</ags:creatorPersonal>
+<ags:creatorPersonal>Horiguchi, I.</ags:creatorPersonal>
+</dc:creator>
+<dc:date>
+<dcterms:dateIssued>(Feb 1999)</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">E11</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND USE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">URBAN AREAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">JAPAN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TRENDS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND CLASSIFICATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LEGAL LIABILITY</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">UTILISATION DES TERRES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ZONE URBAINE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">JAPON</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">TENDANCE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">CLASSIFICATION DES TERRES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">RESPONSABILITE LEGALE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">UTILIZACION DE LA TIERRA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ZONAS URBANAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">JAPON</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">TENDENCIAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CLASIFICACION DE TIERRAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">RESPONSABILIDAD LEGAL</ags:subjectThesaurus>
+</dc:subject>
+<dc:description><ags:descriptionNotes>Summary (En)</ags:descriptionNotes>
+<ags:descriptionNotes>4 tables; 11 fig.; 6 ref</ags:descriptionNotes>
+<dcterms:abstract xml:lang="en">Recent land-use changes in expanding urban areas were studied by using two land-use area files (1976 file and 1991 file) of the Digital National Land Information in Japan.  The purpose of this study was to clarify the relationship of increases and decreases in the use of four land types (agricultural land, urban land, barren land, natural land) to the legal land-use classification.  The areas studied were seven municipalities in the area of greater Sapporo (Sapporo City, Ebetsu City, Chitose City, Eniwa City, Kita-Hiroshima City, Ishikari City, Tobetsu. Town).  Urban land-use significantly increased in all of the seven study areas, while the use of agricultural and natural land decreased in varying degrees in the study areas: a notable decrease in agricultural land-use in four municipalities (Sapporo City, Ebetsu City, Eniwa City and Ishikari City), a notable decrease in the use of natural land (mainly forest land) in two municipalities (Chitose City and Tobetsu Town), and a similar degree of decrease in the use of agricultural and natural land in Kita-Hiroshima City.  The area of barren land increased in three municipalities (Sapporo City, Kita-Hiroshima City and Ishikari City) and decreased in the other four municipalities.  The area of land-use change was greatest in Sapporo City, followed by Ishikari City, chitose City and Ebetsu City.  In terms of population, the area of land-use change was greatest in Ishikari City.  In terms of legal land-use classification, land-use change was greatest in the urbanization-promotion area of five municipalities (Sapporo City, Ebetsu City, Eniwa City, Kita-Hiroshima City and Ishikari City), while the greatest changes in land-use in tobetsu Town and chitose City were in the agricultural land zone and in the area of other land, respectively.  In many of the municipalities, the second-greatest area of land-use change was in the white zone of the agriculture-promotion area</dcterms:abstract>
+</dc:description>
+<dc:type>E</dc:type>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>JP</ags:availabilityLocation><ags:availabilityNumber>1999006974</ags:availabilityNumber></agls:availability>
+<ags:citation><ags:citationTitle>Journal of the Faculty of Agriculture - Hokkaido University (Japan)</ags:citationTitle>
+<ags:citationIdentifier scheme="ags:ISSN">0018-344X</ags:citationIdentifier>
+<ags:citationNumber>v. 69(1) p. 31-45</ags:citationNumber>
+<ags:citationChronology>(Feb 1999)</ags:citationChronology>
+</ags:citation>
+</ags:resource>
+<ags:resource ags:ARN="QM2008000116">
+		<dc:title xml:lang="en">From land cover change to land function dynamics: a major challenge to improve land characterization</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Verburg, P.H..</ags:creatorPersonal>
+			<ags:creatorPersonal>Steeg, J. van de</ags:creatorPersonal>
+			<ags:creatorPersonal>Veldkamp, A.</ags:creatorPersonal>
+			<ags:creatorPersonal>Willemen, L.</ags:creatorPersonal>
+		</dc:creator>
+		<dc:date>
+			<dcterms:dateIssued>2008</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">E11</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND USE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PLANT COVER</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">ECOSYSTEMS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SERVICES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MODELS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MONITORING</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<dcterms:abstract xml:lang="en">Land cover change has always had a central role in land change science. This central role is largely the result of the possibilities to map and characterize land cover based on observations and remote sensing. This paper argues that more attention should be given to land use and land functions and linkages between these. Consideration of land functions that provide a wide range of goods and services makes more integrated assessments of land change possible. The increasing attention to multifunctional land use is another incentive to develop methods to assess changes in land functions. A number of methods to quantify and map the spatial extent of land use and land functions are discussed and the implications for modeling are identified based on recent model approaches in land change science. The mixed use of land cover, land use and land function in maps and models leads to inconsistencies in land change assessments. Explicit attention to the non-linear relations between land cover, land use and land function is essential to consistently address land change. New methods to map and quantify land function dynamics will enhance our ability to understand and model land system change and adequately inform policies and planning.
+science; Multi functional land use</dcterms:abstract>
+		</dc:description>
+		<dc:type>Reprint</dc:type>
+		<dc:language scheme="ags:ISO639-1">En</dc:language>
+		<agls:availability>
+			<ags:availabilityLocation>QM</ags:availabilityLocation>
+			<ags:availabilityNumber>7920</ags:availabilityNumber>
+		</agls:availability>
+		<ags:citation>
+			<ags:citationTitle>Journal of Environmental Management</ags:citationTitle>
+			<ags:citationNumber>In Press</ags:citationNumber>
+			<ags:citationChronology>2008</ags:citationChronology>
+		</ags:citation>
+	</ags:resource>
+<ags:resource ags:ARN="GB2013201938">
+	<dc:title xml:lang="eng"><![CDATA[Modes of land access and welfare impacts in Uganda]]></dc:title>
+	<dc:creator>
+		<ags:creatorPersonal><![CDATA[A. Tatwangire]]></ags:creatorPersonal>
+		<ags:creatorPersonal><![CDATA[S. T. Holden]]></ags:creatorPersonal>
+	</dc:creator>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[Norwegian University of Life Sciences]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2009</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[poverty reduction]]></dc:subject>
+	<dc:subject><![CDATA[Norway.Agriculture]]></dc:subject>
+	<dc:subject><![CDATA[land markets]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[land]]></dc:subject>
+	<dc:subject><![CDATA[Uganda]]></dc:subject>
+	<dc:subject><![CDATA[Norway]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[markets]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Poverty]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land access]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Marketing]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[market access]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[welfare]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Uganda]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[surveying]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Models]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[Do land markets contribute to poverty reduction?]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[This paper estimates the poverty reducing impact of land access in rural Uganda. The paper firstly states that land acquired through markets or otherwise may play an important role for rural household welfare. Conversely, there are concerns that poverty reduction effect of access to land through the market may be inadequate, due to land markets that can increase land concentration among the rich and inefficient producers. In this context, the paper argues that poverty reduction effect of land can be effective when more efficient farmers are able to acquire additional land through a mode of land access with stronger welfare increasing effects.<br /><br />The paper notes that land, whether accessed through the market or not, is an important determinant of household welfare. Indeed, households with more of owned land, operated land, or market-accessed land would gain a significant welfare-improving effect of better land access. However, this is conditioned to controlling for both endogeneity in land access and unobserved heterogeneity effects on welfare. <br /><br />The paper's findings indicate significant poverty reduction effects of increased land access in form of owned, operated and market-accessed land. Furthermore, the poverty reduction effect for land accessed through the market was significantly larger than the poverty reduction effect of land accessed through inheritance. The paper argues that this is likely to be the case because land markets, to a larger extent, transfer land to more efficient producers. The paper concludes that land markets enhance efficiency as well as contribute to poverty reduction. ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.umb.no/statisk/ncde-2009/alex_tatwangire.pdf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+	<dc:coverage><dcterms:spatial scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[Uganda]]></dcterms:spatial></dc:coverage>
+</ags:resource>
+<ags:resource ags:ARN="GB2013203480">
+	<dc:title xml:lang="eng"><![CDATA[Reassessing Kenya's land reform]]></dc:title>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[Institute of Economic Affairs, Kenya]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2000</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[Land reform]]></dc:subject>
+	<dc:subject><![CDATA[corruption]]></dc:subject>
+	<dc:subject><![CDATA[Redistribution]]></dc:subject>
+	<dc:subject><![CDATA[povgdn]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[law]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Kenya]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Poverty]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land ownership]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[tenure]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[farmland]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land reform]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land economics]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land use]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[How should Kenyan land reform be conducted?]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[This article discusses issues surrounding land reform in Kenya. As the nature of land reforms is as yet undecided, disparate suggestions and proposals are being considered. These include:<B>Land Ownership Ceilings.</B> There are vast inequalities in land ownership. Indeed, non-indigenous Kenyans or corporations that are not significantly Kenyan own the largest consolidated quantities of Kenyan lands. Ceilings on land ownership, would encourage more equitable distribution of land, perhaps facilitating more effective production and a  reduction in food security problems. Such a move will naturally interfere with individual property rights.<B>Land sub-division</B> is a common phenomena in productive agricultural areas of Kenya. This provokes an increasingly unproductive agricultural sector, consisting of uneconomical units with diminishing returns and overall declining value. In this context, the article suggests that restrictions may need to be set on such fragmentation. This may be problematic for several reasons:Such restrictions would interfere with individual property rights and freedom of useA distinction must be made between the negative effects of fragmentation of agricultural land and sub-division of non-agricultural land, which may be beneficialAs a consequence of these two potential problems, it may be more acceptable to encourage land consolidationUnrestricted freedom of ownership should be encouraged. Land should be considered as a resource, which is subject to sale like any other commodity. Within a culturally diverse nation such as Kenya, it is important that regional monocultures are not encouraged by restricting land ownership to specific ethnic or racial communities.Ethnic land rights should be respected, requiring a restriction of entitlement of the acquisition by individuals/groups that are not affiliated with the specific community, ethnicity or race associated with a particular locationAs a result of the government abusing its powers of trusteeship over the public asset of the land, the government should cede control of public land to a custodian of public assets answerable to parliament.Land law should be simplified<B>Conclusions:</B>Land reform issues remain complicated by reasons ranging from legal complexities, political involvement, corruption and the extreme poverty in the countryGiven the present circumstances, the arguments proposing the restriction on land ownership with regard to ethnic and racial size will lead to retrogressive and unacceptable social and economic outcomes.While meaningful land reform is necessary, it can only be meaningful as a component of wider economic reform [Author] ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.eldis.org/fulltext/land.pdf]]></dc:identifier>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.eldis.org/vfile/upload/1/document/0708/DOC8151.pdf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+	<dc:coverage><dcterms:spatial scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[Kenya]]></dcterms:spatial></dc:coverage>
+</ags:resource>
+<ags:resource ags:ARN="PH8811859">
+<dc:title xml:lang="en">Interactive land-use planning algorithm [Philippines]</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Balanque, T.O.</ags:creatorPersonal>
+<ags:creatorCorporate>Philippines Univ., Los Banos, College, Laguna (Philippines)</ags:creatorCorporate>
+</dc:creator>
+<dc:publisher><ags:publisherPlace>College, Laguna (Philippines)</ags:publisherPlace>
+</dc:publisher>
+<dc:date>
+<dcterms:dateIssued>May 1988</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">U10</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E11</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">MODELE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">UTILISATION DU SOL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PHILIPPINES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">MODELOS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">UTILIZACION DE LA TIERRA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">FILIPINAS</ags:subjectThesaurus>
+</dc:subject>
+<dc:description><ags:descriptionNotes>97 graphs; 44 tables; 45 ref. Summaries (En). Appendices. Received Jun 1988. *PH</ags:descriptionNotes>
+<dcterms:abstract xml:lang="en">An interactive land-use planning algorithm is developed for biophysical data management system, land capability assessment, land suitability assessment, land-use evaluation, and land-use allocation. The algorithm is an effective land use planning tool because of its speed to provide important land capability, land suitability, and land-use allocation information and maps for land-use planning, decision making, and land management. The algorithm was validated in the planning of major land uses with Davao del Norte [Philippines] as study area. It mapped several biophysical factors; overlayed by the factor maps, identified land response units, identified land capabilities, assessed land suitabilities, evaluated land uses, and allocated land uses to the land response units for the study area. Six major land were considered in the study: forestry, agriculture, industrial/commercial, residential, urban, and fishery. Some of the ecological factor requirements of these major land uses and specific land utilization types were incorporated in the study. A new concept of evaluation was introduced to assess land uses based on their market and non-market benefits. The algorithm was also applied in land-use allocation using user-specified criterion which can be selected from the land-use environmental impact parameters. The algorithm is also capable of simultaneously considering the social, economic, biophysical, and ecological values of land use with the use of environmental impact indices. The algorithm works well in both bureaucratic and participatory planning and decision making by accommodating external value and judgement of the participating public</dcterms:abstract>
+</dc:description>
+<dc:type>U</dc:type>
+<dc:type>E</dc:type>
+<dc:type>V</dc:type>
+<dc:format><dcterms:extent>356 leaves</dcterms:extent></dc:format>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>PH</ags:availabilityLocation><ags:availabilityNumber>8811859</ags:availabilityNumber></agls:availability>
+</ags:resource>
+<ags:resource ags:ARN="GB2013202139">
+	<dc:title xml:lang="eng"><![CDATA[Better livelihoods for poor people: the role of land policy]]></dc:title>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[Department for International Development, UK]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2002</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[pro-poor]]></dc:subject>
+	<dc:subject><![CDATA[poverty reduction strategy]]></dc:subject>
+	<dc:subject><![CDATA[Livelihoods]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[Livelihoods.Agriculture]]></dc:subject>
+	<dc:subject><![CDATA[Poverty]]></dc:subject>
+	<dc:subject><![CDATA[rights based]]></dc:subject>
+	<dc:subject><![CDATA[land tenure]]></dc:subject>
+	<dc:subject><![CDATA[Livelihoods.Social protection]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure.Communal land]]></dc:subject>
+	<dc:subject><![CDATA[Governance]]></dc:subject>
+	<dc:subject><![CDATA[common property]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[West Africa]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land policies]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[urban areas]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Poverty]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Role of women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[legal rights]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[land use]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Geographical information systems]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[Can pro-poor land reform reduce poverty?]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[This DFID consultation paper examines the importance of land, land rights and land reform in developing countries, and considers how land policies can contribute to poverty reduction and the achievement of the Millennium Development Goals. It advocates a rights-based approach to land through advocacy and representation of the poor in land management.The paper begins by outlining the benefits of secure and equitable access to land and good land and in this context discusses challenges and opportunities in developing pro-poor land policy: Key challenges are identified as:equitable access, especially for minority groups and women; secure tenure in land rights, including rights to common property and other forms of rights in land; governance, in particular the administration of land rights;  financial and political sustainability. The authors then look at the how these issues might be integrated into poverty strategies and discuss the implications for DFID policy and practice.Strategy considerations include:The expensive and long-term processes involved in land reform may present problems for planning and budgetary cyclesThe political nature of land reform means that the social impacts have frequently not been adequately assessed. Development partner coordination in the land sector has not always been effective and there has been a tendency for donors to support stand-alone, technically driven projects based on pre-conceived models. National stakeholders, including a wide range of government, civil society and community stakeholders, must be effectively engaged in the development of land policy. Governments should avoid raising unrealistic expectations, especially where powerful vested interests may be difficult to overcome. In these circumstances there may be a role for donors to support pro-poor advocacy and civil society groups provided genuine dialogue is facilitated.Land cannot be addressed in isolation from other sectors particularly agriculture, provision of basic services, financial services and access to markets. Poverty reduction strategy (PRS) processes provide a key opportunity. However land is one of the issues that many current PRS papers fail to address wellFurther comments and feedback are most welcome up to the end of December 2002, addressed to Julian Quan at:rl-policy@dfid.gov.uk. A final version of the report will be published early in 2003. ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.dfid.gov.uk/pubs/files/landpolicyconsult.pdf]]></dc:identifier>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.eldis.org/vfile/upload/1/document/0708/DOC11008.pdf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+</ags:resource>
+<ags:resource ags:ARN="US2012400695">
+	<dc:title xml:lang="eng"><![CDATA[Social exclusion and land administration in   Orissa, India]]></dc:title>
+	<dc:title>
+		<ags:titleSupplement><![CDATA[Wage determinants in Cote d'Ivoire]]></ags:titleSupplement>
+	</dc:title>
+	<dc:creator><![CDATA[Mearns, Robin]]></dc:creator>
+	<dc:creator><![CDATA[Sinha, Saurabh]]></dc:creator>
+	<dc:creator>
+		<ags:creatorCorporate><![CDATA[Off of Sr VP Dev Econ/Chief Econ (DECVP)]]></ags:creatorCorporate>
+	</dc:creator>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[The World Bank]]></ags:publisherName>
+		<ags:publisherPlace><![CDATA[Washington, DC (USA)]]></ags:publisherPlace>
+	</dc:publisher>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Registration]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Policies]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Managers]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Farmland]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Orissa]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Rural development]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Land]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Marketing]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Legislation]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[India]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description><dcterms:abstract><![CDATA[The authors report on the first   empirical study of its kind to examine - from the   perspective of transaction costs - factors that constrain   access to land for the rural poor and other socially   excluded groups in India. They find that: a) Land reform has   reduced large landholdings since the 1950s. Medium size   farms have gained most. Formidable obstacles still prevent   the poor from gaining access to land. b) The complexity of   land revenue administration in Orissa is partly the legacy   of distinctly different systems, which produced more or less   complete and accurate land records. These not-so-distant   historical records can be important in resolving   contemporary land disputes. c) Orissa tried legally to   abolish land-leasing. Concealed tenancy persisted, with   tenants having little protection under the law. d)   Women's access to and control over land, and their   bargaining power with their husbands about land, may be   enhanced through joint land titling, a principle yet to be   realized in Orissa. e) Land administration is viewed as a   burden on the state rather than a service, and land records   and registration systems are not coordinated. Doing so will   improve rights for the poor and reduce transaction costs -   but only if the system is transparent and the powerful do   not retain the leverage over settlement officers that has   allowed land grabs. Land in Orissa may be purchased,   inherited, rented (leased), or - in the case of public land   and the commons - encroached upon. Each type of transaction   - and the State's response, through land law and   administration - has implications for poor people's   access to land. The authors find that: 1) Land markets are   thin and transaction costs are high, limiting the amount of   agricultural land that changes hands. 2) The fragmentation   of landholdings into tiny, scattered plots is a brake on   agricultural productivity, but efforts to consolidate land   may discriminate against the rural poor. Reducing   transaction costs in land markets will help. 3) Protecting   the rural poor's rights of access to common land   requires raising public awareness and access to information.   4) Liberalizing land-lease markets for the rural poor will   help, but only if the poor are ensured access to   institutional credit.]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="ags:RN"><![CDATA[WPS2124Social exclusion and land administration in   Orissa, India]]></dc:identifier>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www-wds.worldbank.org/servlet/WDSContentServer/IW3P/IB/1999/09/14/000094946_99060905321229/Rendered/PDF/multi_page.pdf]]></dc:identifier>
+	<dc:identifier scheme="ags:ISBN"><![CDATA[0-8213-1058-5]]></dc:identifier>
+	<dc:type><![CDATA[Policy Research Working Paper]]></dc:type>
+	<dc:language scheme="dcterms:ISO639-2"><![CDATA[eng]]></dc:language>
+	
+	<dc:coverage><dcterms:spatial scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[India]]></dcterms:spatial></dc:coverage>
+</ags:resource>
+<ags:resource ags:ARN="GB2013200349">
+	<dc:title xml:lang="eng"><![CDATA[Botswana National Land Policy]]></dc:title>
+	<dc:publisher>
+		<ags:publisherName><![CDATA[Oxfam]]></ags:publisherName>
+	</dc:publisher>
+	<dc:date><dcterms:dateIssued>2002</dcterms:dateIssued></dc:date>
+	<dc:subject><![CDATA[peri-urban land]]></dc:subject>
+	<dc:subject><![CDATA[urban land management]]></dc:subject>
+	<dc:subject><![CDATA[land rights]]></dc:subject>
+	<dc:subject><![CDATA[urbanisation]]></dc:subject>
+	<dc:subject><![CDATA[urbanpoverty]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food]]></dc:subject>
+	<dc:subject><![CDATA[Poverty]]></dc:subject>
+	<dc:subject><![CDATA[land access]]></dc:subject>
+	<dc:subject><![CDATA[land tenure]]></dc:subject>
+	<dc:subject><![CDATA[land entitlements]]></dc:subject>
+	<dc:subject><![CDATA[rural land mangement]]></dc:subject>
+	<dc:subject><![CDATA[Governance]]></dc:subject>
+	<dc:subject><![CDATA[SADC]]></dc:subject>
+	<dc:subject><![CDATA[Agriculture and food.Land tenure]]></dc:subject>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Labour]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[water supply]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[foods]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Poverty]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Role of women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Disasters]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Development aid]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Climatic change]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[women]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en"><![CDATA[Accounting]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[Preparing a comprehensive national land policy for Botswana]]></ags:descriptionNotes></dc:description>
+	<dc:description><dcterms:abstract xml:lang="eng"><![CDATA[This Bostwana government report  examines the linkages between land rights and both rural and urban poverty in Botswana, which constitute a strong element of the Bostwana PRSP. Its basis for this arises out of a  need to adjust the land policy and land laws, administration and management to the changes being brought about by economic development and associated urbanisation in Botswana. It considers a series of measures to tackle urban landlessness and the anti-social conduct of land hoarding and land speculation, proposes the following policy recommendations over a broad spectrum of issues, some of which include:  land rights of the poor - strengthen  planning and implementation capacity of land boards and councils to ensure that poor people have access to land.land rights for women - educate women and raise their awareness of their rights in terms  of existing opportunities and can make informed choices.land rights of minority groups - Upholding the rights of minorities to pursue a different life style and maintain a distinct culture from that of the majority  HIV/AIDS and land rights - which includes conducting a special investigation of the impact of HIV/AIDS on land rights, land use and occupation in urban and rural areas.Other areas that this document addresses includes land markets, and land taxation issues as well as urban and peri-urban land management issues. ]]></dcterms:abstract>
+	</dc:description>
+	<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.oxfam.org.uk/what_we_do/issues/livelihoods/landrights/downloads/botissue.rtf]]></dc:identifier>
+	<dc:language><![CDATA[English]]></dc:language>
+	<dc:coverage><dcterms:spatial scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[Botswana]]></dcterms:spatial></dc:coverage>
+</ags:resource>
+</ags:resources> 

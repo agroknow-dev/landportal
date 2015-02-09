@@ -1,0 +1,332 @@
+/**
+ * Landportal SCSS
+ * Base size and positionning
+ */
+
+/* Default elements */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: $text-color;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    font-family: 'News Cycle', sans-serif;
+    margin-top: 0;
+    text-rendering: optimizelegibility;
+    clear: both;
+    a {
+        text-decoration: none;
+    }
+}
+h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+	color: #333;
+	padding-bottom: 0.2em;
+}
+h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: $blue;
+}
+
+/* .view-content { */
+/*     clear: both; */
+/* } */
+/* .no-margin { */
+/* 	margin: 0 !important; */
+/* } */
+
+/* Sizing */
+/* @screen-xs-min 480px */
+/* @screen-sm-min 768px */
+/* @screen-md-min 992px */
+/* @screen-lg-min 1200px */
+
+@media(min-width:768px){
+    #breadcrumb,
+    #main-wrapper{ width:750px; }
+}
+@media(min-width:992px){
+    #breadcrumb,
+    #main-wrapper{ width:970px; }
+}
+@media(min-width:1200px){
+    #breadcrumb,
+    #main-wrapper{ width:1170px; }
+}
+
+
+/*****************************************
+ * Header & Footer areas
+ */
+
+#logo {
+    float: left;
+    margin: 0 2em 0 0;
+}
+
+#header {
+    .block-menu {
+        h2 {
+            display: none;
+        }
+
+        float: left;
+        &:after {
+            position: relative;
+            clear: both;
+            display: table;
+            content: " ";
+            visibility: hidden;
+        }
+
+        .contextual-links-wrapper {
+            margin-right: -32px;
+        }
+
+    }
+
+    #block-system-user-menu {
+        float: right;
+    }
+}
+
+#footer {
+    border-top: 1px solid $grey;
+    height: 100px;
+    margin-top: 5px;
+
+    .block {
+        float: left;
+    }
+
+        &:before {
+            position: relative;
+            clear: both;
+            display: table;
+            content: " ";
+            visibility: hidden;
+        }
+
+        #block-landportal-extra-lp-footer-social {
+            float: right;
+            font-size: 1.8em;
+            li {
+                height: 1.4em;
+                width: 1.4em;
+                border-radius: 0.7em;
+                background-color: $grey;
+                list-style-type: none;
+                text-align: center;
+                float: left;
+                & {
+                    margin: 0 0 0 .5em;
+                    padding: .05em 0 0 0;
+                }
+
+                a {
+                    color: $white;
+                }
+            
+            }
+        }
+        .contextual-links-wrapper {
+            margin-right: -32px;
+        }
+}
+
+#header,
+#footer {
+    padding: 0.8em 5em 0.5em;
+    /* height: 44px; */
+}
+
+#section-header {
+    border-top: .36em solid $green;
+}
+
+
+/*****************************************
+ * Main / Content areas
+ */
+#breadcrumb,
+#main-wrapper {
+    margin:     0 auto;
+    padding:    0 15px;
+}
+
+#breadcrumb {
+    clear: both;
+}
+
+.no-sidebars #content {
+    width: 100%;
+}
+.sidebar-first #content,
+.sidebar-second #content {
+    width: 75%;
+}
+.sidebar-first #content {
+    margin-left: 25%;
+}
+.two-sidebars #content {
+    width: 50%;
+    margin-left: 25%;
+}
+.sidebar {
+    width: 25%;
+}
+
+/**
+ * Sidebars
+ */
+#main { position: relative; }
+#content {
+    float: left;
+}
+#sidebar-first {
+    top: 50px;
+    position: absolute;
+    float: left;
+    width: 25%;
+}
+#sidebar-second {
+    float: right;
+}
+
+
+/*****************************************
+ * Drupal specific
+ */
+.view .pager {
+    margin: 0;
+    li {
+        margin: 0 .5em;
+        padding: 0;
+        a {
+            margin: 0.5em 0;
+        }
+    }
+}
+
+
+
+/*****************************************
+ * Page specific
+ */
+.front {
+    // TMP
+    .submitted,
+    .views-label { display: none; }
+
+    .library { color: $yellow; }
+    .book { color: $green; }
+    .debate { color: $blue; }
+
+    #header {
+        border-bottom: .36em solid $green;
+    }
+    #main {
+        line-height: 1.4em;
+        width: 100%;
+        color: $grey-light;
+        font-size: 1.4em;
+        letter-spacing: 0.1em;
+        font-family: 'Source Sans Pro',sans-serif;
+        font-weight: 300;
+        #page-title {
+            line-height: 1.4em;
+            font-family: 'Source Sans Pro',sans-serif;
+            font-weight: 300;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            margin: 1.2em 0 0;
+        }
+
+        .region-content {
+            margin: 0.5em 0 1em 0;
+        }
+
+    }
+
+
+    .view-front-page-promoted {
+        margin: 0;
+        /* padding: 0 -15px; */
+        width: 100%;
+        .views-row {
+
+            &{
+                position: relative;
+                float: left;
+                width: 25%;
+            }
+
+            .views-field-title {
+                background-color: rgba(.3, .3, .3, .6);
+                position: absolute;
+                padding: 0.5em 1em;
+                bottom: 0;
+            }
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+            img {
+                width: 100%;
+                max-height: 200px;
+            }
+        }
+        &:after {
+            position: relative;
+            clear: both;
+            display: table;
+            content: " ";
+            visibility: hidden;
+        }
+    }
+    .view-front-page-teasers {
+        padding: 1em 5em;
+        .views-row {
+            float: left;
+            width: 33.3%;
+            text-align: center;
+            padding: 0 1em;
+            .views-field-title {
+                text-transform: lowercase;
+                font-size: 2.5em;
+                a {
+                    color: $grey;
+                }
+            }
+            h3 {
+                a { text-decoration: none; color: $grey-light; }
+                text-transform: uppercase;
+                min-height: 2.5em;
+                color: $grey-light;
+            }
+            p {
+                text-align: justify;
+            }
+        }
+        &:after {
+            position: relative;
+            clear: both;
+            display: table;
+            content: " ";
+            visibility: hidden;
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.field-name-field-topics,
+.field-name-field-geographical-focus,
+.field-name-field-status {
+    .field-item {
+    margin: 1em 0;
+    padding: 0.2em 0.5em;
+    border-radius: .25em;
+    color: white;
+    background-color: $blue-light;
+    float: left;
+    a { color: white; }
+
+    }
+}
+
+.field-name-field-status .field-item {
+    float: none;
+    border: 1px solid $grey-light;
+    .field-item[content="Closed"] {
+        background-color: $status-red;
+    }
+}

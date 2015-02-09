@@ -1,0 +1,15 @@
+name = Landbook
+description = The landbook section of the landportal. For this module to work properly you will need a running memcached facility and the following packages: php5-curl, php5-memcached.
+package = Landportal
+core = 7.x
+version = 7.x-1.1-beta1
+; dependencies[] = devel
+dependencies[] = ctools
+dependencies[] = menu
+dependencies[] = views
+files[] = landbook.module
+files[] = landbook.install
+files[] = includes/landbook.admin.inc
+files[] = includes/landbook.block.inc
+files[] = includes/landbook.menu.inc
+configure=admin/config/landbook/settings
