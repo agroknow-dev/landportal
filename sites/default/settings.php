@@ -213,9 +213,9 @@
  * @endcode
  */
 $databases['default']['default'] = array(
-      'database' => 'landportal',
-      'username' => 'root',
-      'password' => 'l@nd123',
+      'database' => '*****',
+      'username' => '*****',
+      'password' => '*****',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
@@ -223,9 +223,9 @@ $databases['default']['default'] = array(
 );
 $databases['default']['landbook'] = array(
     'driver' => 'mysql',
-    'database' => 'landbook',
-    'username' => 'root',
-    'password' => 'l@nd123',
+    'database' => '*****',
+    'username' => '****',
+    'password' => '****',
     'host' => 'localhost',
     'port' => '',
     'prefix' => ''
